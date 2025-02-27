@@ -4,10 +4,12 @@ function App() {
   return (
     <>
       <h1>I have successfully deployed</h1>
-      {/* Navigasjon til test og dog-siden */}
+
+      {/* Bruk riktig komponent for navigasjon i React Router */}
       <Link to="/test">Go to Test Page</Link>
-      <br />
-      <Link to="/dog">Go to Dog Page</Link> {/* 👈 Ny link til Dog */}
+
+      {/* Standard <a> tag for full sideoppdatering */}
+      <a href="/test">Go to test Page (anchor)</a>
     </>
   );
 }

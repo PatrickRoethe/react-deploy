@@ -2,7 +2,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
-import { Dog } from "./Dog.jsx"; // 👈 Importer Dog-komponenten
 import "./index.css";
 
 // Lag en test-side
@@ -17,12 +16,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/test",
+    path: "/test", // 👈 Legger til Test Page her!
     element: <TestPage />,
-  },
-  {
-    path: "/dog", // 👈 Legger til Dog-siden her
-    element: <Dog />,
   },
 ]);
 
