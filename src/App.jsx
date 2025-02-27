@@ -9,7 +9,7 @@ function App() {
       <Link to="/test">Go to Test Page</Link>
 
       {/* Standard <a> tag for full sideoppdatering */}
-      <a href="/test">Go to Test Page</a>
+      <a href="/test">Go to test Page (anchor)</a>
     </>
   );
 }
